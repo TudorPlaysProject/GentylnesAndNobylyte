@@ -1,3 +1,5 @@
+Editorial Rules and Decisions for Eliminating Noise in GN
+=========================================================
 1. “inuencyon” (compositor’s error): search and correct, or not (how is it used and/or how does it appear elsewhere?)
 2. &: and
 3. {per}: per
