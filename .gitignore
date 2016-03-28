@@ -1,2 +1,8 @@
 .Rhistory
+*.csv
+*.jpg
+files_to_analyze.txt
+stylo_config.txt
+table_with_frequencies.txt
+wordlist.txt
 
