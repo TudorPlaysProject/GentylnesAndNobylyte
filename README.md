@@ -1,4 +1,4 @@
-## University of San Diego Tudor Plays Project
+## Tudor Plays Project
 ### GentylnesAndNobylyte
 
 Welcome Renaissance Society of America attendees!
