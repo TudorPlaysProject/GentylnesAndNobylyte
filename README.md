@@ -1,5 +1,4 @@
-# University of San Diego
-## Tudor Plays Project
+## University of San Diego Tudor Plays Project
 ### GentylnesAndNobylyte
 
 Welcome Renaissance Society of America attendees!
@@ -20,7 +19,4 @@ in reproducing the results, install [R](https://www.r-project.org/),
 with R package, then run the R script _batch.R_. Technical and other
 questions welcome at pevans@sandiego.edu.
 
-Maura Giles-Watson 
-Paul Evans 
-Emily Bezold 
-Jude Caywood 
+Maura Giles-Watson, Paul Evans, Emily Bezold, and Jude Caywood
