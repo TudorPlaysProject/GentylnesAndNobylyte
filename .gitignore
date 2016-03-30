@@ -2,6 +2,7 @@
 *.csv
 *.jpg
 files_to_analyze.txt
+!save/*.jpg
 stylo_config.txt
 table_with_frequencies.txt
 wordlist.txt
