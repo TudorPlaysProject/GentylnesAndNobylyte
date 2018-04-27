@@ -1,8 +1,14 @@
 #
 # Paul Evans (pevans@sandiego.edu)
-# 17 November 2017
+# 27 April 2018
 #
-setwd("~/Work/GentylnesAndNobylyte/2017")
+setwd("~/Work/GentylnesAndNobylyte/Working")
 library(stylo)
-stylo()
+stylo.results = stylo(
+  gui = FALSE,
+  features = "wordlist_cait.txt",
+  mfw.list.cutoff = 300
+)
+summary(stylo.results)
+print(stylo.results$features.actually.used)
 
