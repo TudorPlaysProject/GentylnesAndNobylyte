@@ -4,8 +4,8 @@
 # You can either delete unwanted words, or mark them with "#"
 # -----------------------------------------------------------------------
 
-the
-and
+the (preposition)
+and (conjunction)
 to
 i
 of
