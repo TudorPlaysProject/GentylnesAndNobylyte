@@ -4,89 +4,89 @@
 # You can either delete unwanted words, or mark them with "#"
 # -----------------------------------------------------------------------
 
-the
-and
-to
-i
-of
-in
-that
-a
-for
-ye
-is
-be
-as
-by
-all
-my
-so
-but
-me
+the (prep)
+and (conj)
+to (prep)
+i (pro)
+of (prep)
+in (prep)
+that (art/pro/conj)
+a (art)
+for (prep/conj)
+ye ?????
+#is
+#be
+as (prep/sub conj)
+by (prep)
+#all
+#my
+so (can be conj)
+but (conj)
+#me
 #haue
 #not
-it
-your
-this
+it (pro)
+#your
+this (art/pro/conj)
 #no
 #shall
-he
+#he
 #wyll
-with
-we
-you
-thou
-or
+with (prep)
+#we
+#you
+#thou
+or (conj)
 #what
-they
+#they
 #here
 #god
 #do
-at
+at (prep)
 #can
-our
+#our
 #well
 #now
 #page
 #unnumbered
-his
+#his
 #may
 #nor
-then
-hym
+then (conj adv)
+#hym
 #man
-her
+#her
 #one
-yet
-thy
+yet (conj adv)
+#thy
 #good
-them
+#them
 #loued
-hys
+#hys
 #loue
 #louer
 #more
-thys
+thys (art/pro/conj)
 #am
-than
-on
-yf
+than (conj adv)
+on (prep)
+yf (conj)
 #hath
 #other
 #payne
 #make
 #neuer
 #was
-any
+#any
 #were
 #wolde
 #where
-these
+#these
 #frere
-she
+#she
 #nat
-from
-doth
+from (prep)
+#doth
 #nowe
 #there
 #thu
@@ -94,41 +94,41 @@ doth
 #take
 #had
 #come
-some
-vs
-if
+#some
+vs ?(if us, delete)
+if (conj)
 #tyme
 #pardo
 #syr
-who
-whiche
-which
-suche
+#who
+#whiche (adj/pro)
+#which (adj/pro)
+#suche (determiner)
 #most
 #must
 #euery
 #go
 #mery
-se
-though
-an
+se ???
+though (conj adv)
+an (art)
 #euer
 #thus
 #infidelitas
 #how
 #say
 #lyke
-nay
+#nay (noun?)
 #parte
-both
+both (cor conj)
 #thynge
 #selfe
-such
+#such (adj/det)
 #water
 #why
 #see
 #thynke
-their
+#their
 #let
 #out
 #tell
@@ -136,7 +136,7 @@ their
 #many
 #ryght
 #thyng
-#when
+when (sub conj)
 #made
 #whych
 s
@@ -168,8 +168,8 @@ m
 #muche
 #two
 #wherfore
-#after
-#before
+after (sub conj)
+before (sub conj)
 #mynde
 #dyd
 #lawe
