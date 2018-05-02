@@ -2,7 +2,7 @@
 # Paul Evans (pevans@sandiego.edu)
 # 27 April 2018
 #
-setwd("~/Work/GentylnesAndNobylyte/Working")
+setwd("~/Documents/GitHub/GentylnesAndNobylyte/Working")
 library(stylo)
 stylo.results = stylo(
   gui = FALSE,
