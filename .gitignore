@@ -1,6 +1,7 @@
 .Rhistory
 *.csv
 *.jpg
+.DS_Store
 files_to_analyze.txt
 !save/*.jpg
 stylo_config.txt
