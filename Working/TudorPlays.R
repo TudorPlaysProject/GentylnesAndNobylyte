@@ -1,4 +1,3 @@
-
 #
 # Paul Evans (pevans@sandiego.edu)
 # 27 April 2018
@@ -18,9 +17,9 @@ print(stylo.results$features.actually.used)
 #
 stylo.results = stylo(
   gui = FALSE,
-  features = "wordlist_cait.txt",
+  features = "wordlist_cait_debug.txt",
   mfw.min = 65, mfw.max = 65,
-  mfw.list.cutoff = 300,
+  mfw.list.cutoff = 65,
   write.jpg.file = TRUE,
   custom.graph.title = "Cait's List",
   custom.graph.filename = "Cait_CA_65_MFWs_Culled_0"
