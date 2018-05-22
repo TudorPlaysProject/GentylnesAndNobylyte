@@ -1,6 +1,7 @@
 Of Gentylnes and Nobylyte.
-A dyaloge betwen the Marchaut the Knyght and the plowman dysputyng who is a verey Gentylman and who is a Noble man and how men shuld come to auctoryte / compilid in maner of an enterlude with divers toys and geftis addyd therto to make mery pastyme and disport.
-The marchaunt
+
+
+A dyaloge betwen the Marchaut the Knyght and the plowman dysputyng who is a verey Gentylman and who is a Noble man and how men shuld come to auctoryte compilid in maner of an enterlude with divers toys and geftis addyd therto to make mery pastyme and disport.
 O what a gret welth and prosperyte
 It is to any reme where marchauntes be
 Hauing fre lyberte and entercours also
@@ -11,23 +12,22 @@ Wherfore now be cause of my grete ryches
 Thoroughowt this land in euery place doubtles
 I am magnyfyed and gretly regardyd
 And for a wyse and noble man estemyd
-The knyght
 Maister marchaunt I here you ryght well
 But now in presumpsion me thynk ye excell
 To call yourself noble in presence here
 I wys men know what your auncestours were
 And of what grete stock descendid ye be
 Your fader was but a blacke smyth perde
-March.
+
 Why syr what than what be you I pray you
-Knyght
+
 Mary I am a gentylman I wold ye know
-And may dispend yerely v.C. mark land
+And may dispend yerely mark land
 And I am sure all that ye haue in hand
-Of yerely rent is not worth v. markys
+Of yerely rent is not worthmarkys
 
 But I wold thou knewist for all thy krakkys
-I am able to bye now all the land
+I am able to buy now all the land
 That thou hast and pay for it out of hand
 Whych I haue got by myn own labour and wit
 
@@ -39,10 +39,10 @@ Why what callyst thou a gentylman tel me
 Mary I call them gentylmen that be
 Born to grete landys by inherytaunce
 As myn auncestours by contynuaunce
-Haue had this v.C. yere of whom now I
+Haue had this yere of whom now I
 Am desendid and commyn lynyally
 Beryng the same name and armys also
-That they bare this v.C. yere agoo
+That they bare this yere agoo
 Myn auncestours also haue euer be
 Lordys Knyghtes and in grete auctoryte
 Capteyns in the warr and gouerners
@@ -163,10 +163,10 @@ Dyscrete and wyse they haue had anctoryte
 
 Nay nay thyne auncestours cam neuer all
 To auctoryte for wysdome p̄ncypall
-For though some were wise yet some of thē agayn
+For though some were wise yet some of the agayn
 Had small discression lytyll wyt or brayn
 But because of the long contynuannce
-Of theyr grete possessions by enherytaunce
+Of theyr grete possessions bi enherytaunce
 By the folysh maner of the worlde we see
 For that cause euer they haue had auctorite
 
@@ -174,7 +174,7 @@ And I say that good reason agreth to it
 For though the fader haue no grete wyt
 The sone that is wyse shuld neuer the more
 Lose hys land or auctoryte therfore
-For he that by study dylygens and payn
+For he that bi study dylygens and payn
 Grete landys or possessyons doth attayn
 Hys owne lyfe is to shorte and to lyte
 For to take the frute of his meryte
@@ -191,7 +191,7 @@ My blode my noble byrth and parentage
 Thou art not able to compare wyth me
 Nother in gentylnes nor in nobylyte
 Here the plouman commith in with a short whyp in hys hand and spekyth as folowith
-Plow.
+
 Nowhere is bybbyll babbyll clytter clatter
 I hard neuer of so folysh a matter
 But by goddys body to speke the troth
@@ -231,7 +231,7 @@ Thou art not honest I tell the playnly
 To make any quarrel here so sodaynly
 To perturb our communycacyon
 
-Here ye may se syrs by goddys passyon
+Here ye may se syrs bi goddys passyon
 Two proude folys make a crakkyng
 And when it commyth to poynt dare do no thyng
 
@@ -262,7 +262,7 @@ Of as noble dedys as he hath any done
 For I am and haue ben one of the cheualry
 At the commaundement of my prynce euerredy
 And euery tyme of warr haue be captayn
-And leder of a .M. men or twayne
+And leder of a men or twayne
 And wyth hors and harnes spere and sheld
 Haue Ioydyd my body in euery felde
 The rentis of my landys haue spende lyberally
@@ -283,13 +283,13 @@ wher to nother of you is able to reply
 
 Yf thou canst answere my reason do
 
-That can I well doo. P. Then go to fole go to
+That can I well doo. Then go to fole go to
 
 I say the comyn well of euery land
 In fete of marchauntdyse doth pryncypally stand
 For yf oure commoditees be vtteryd for nought
 In to strange landis and no ryches brought
-Hydyr therfore / we shuld come to beggary
+Hydyr therfore we shuld come to beggary
 And all men dryffyn to lyf in mysery
 Then we noble marchauntis that in this reame be
 what a grete welth to thys land do we
@@ -350,7 +350,7 @@ And he that hath more nede of that thyng
 For the p̄teruacyon of hys lyuyng
 Then his felow hath his felow must nedis be
 By thys same reason more noble than he
-what than .P. by the same reason it prouith lo
+what than by the same reason it prouith lo
 ye be but caytyffis and wrechis both two
 And by the same reason proue I shall
 That I am the noblyst man of vs all
@@ -426,7 +426,7 @@ And fynd theyr fode euer on the grownd redy
 with out any payn labour or study
 So eueri man by reason of hys body
 Is more wrechyd and in more mysery
-Than bestis be / yet thus not wythstandyng
+Than bestis be yet thus not wythstandyng
 Man is most noble of creaturis lyuyng
 Not by hys body for that is impotent
 But by hys soule beyng so excellent
@@ -513,7 +513,7 @@ I wyll come agayn uppon a condicion
 That ye wyll wayt uppon me both twayn
 And be not out of the way when I come agayn
 
-We wyll not be farr hens P. then I wil not fayle
+We wyll not be farr hens then I wil not fayle
 
 Then I pray the let not the pmise quaile
 
@@ -526,7 +526,7 @@ I shall call you oppenly false knauys both
 
 Thou shalt fynde us trew in euery thyng
 
-I thynk so / except lyeng and stelyng
+I thynk so except lyeng and stelyng
 
 
 Then far well for a season a dew
@@ -543,10 +543,4 @@ Now therto I am ryght well content
 And in the meayn wyle good lord of thy grace
 Preserue all the people here in this place
 Amen
-Finis prime partis
-highlight hits: on | off 
-<< Previous section   Next section >> 
-
-Powered by DLXS
-To comment or inquire about content, contact UMDL Help
-To report errors, contact UMDL Help 
+Finis prime partis
