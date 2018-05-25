@@ -1,5 +1,5 @@
 ```
-:%s/^M/\r/q
+:%s/^M/\r/g
 ```
 control-v control-m
 ```
