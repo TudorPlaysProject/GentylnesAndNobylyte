@@ -13,12 +13,12 @@ def main():
         match = RegexOne.search(line)
         matchTwo = RegexTwo.search(line)
         if match:
-            print format(match.group(0))
-            print re.sub('y','i',line)
+            NewText.write(format(match.group(0)))
+            NewText.write(re.sub('y','i',line))
         if matchTwo:
-            print format(matchTwo.group(0)) 
-            print re.sub('u', 'v', line)        
-	line = OrigText.readline()
+            NewText.write(format(matchTwo.group(0))) 
+            NewText.write(re.sub('u', 'v', line))        
+        line = OrigText.readline()
     OrigText.close()
     NewText.close()
 
