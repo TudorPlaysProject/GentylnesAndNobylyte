@@ -3,25 +3,18 @@
 # 12 Janruary 2019
 
 import re
+import Levenshtein
 def main():
-    def hamming_distance(s1, s2):
-        assert len(s1) == len(s2)
-        return sum(ch1 != ch2 for ch1, ch2 in zip(s1, s2))
-
-    with open('WLBeforeHamming.txt', 'r') as f,open('WLAfterHamming.txt', 'w') as output:
-        file = f.read()
-        words = re.split('\W', file)
-        for word in words:
-            s1=word
-            for otherword in words:
-                s2=word
-                i=0
-                count=0
-                while s1!=' ' and s2!=' ':
-                    for i in s1 and i in s2:
-                        if s1[i]==
-
-
+    with open('WLAfterHamming.txt', 'w') as the_file:
+        with open('WLBeforeHamming.txt', 'r') as f_in:
+            file = f_in.read()
+            words_one = re.split('\W', file)
+            words_two = words_one
+            for word_one in words_one:
+                for word_two in words_two:
+                    if len(word_one) == len(word_two):
+                        if Levenshtein.hamming(word_one, word_two) == 1:
+                            the_file.write(word_one +" "+ word_two + '\n')
 
 if __name__ == '__main__':
     main()

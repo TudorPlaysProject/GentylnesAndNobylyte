@@ -12,9 +12,8 @@ def main():
             words_two = words_one
             for word_one in words_one:
                 for word_two in words_two:
-                    if len(word_one) == len(word_two):
-                        if Levenshtein.distance(word_one, word_two) == 1:
-                            the_file.write(word_one +" "+ word_two + '\n')
+                    if Levenshtein.distance(word_one, word_two) == 1:
+                        the_file.write(word_one +" "+ word_two + '\n')
 
 if __name__ == '__main__':
     main()
