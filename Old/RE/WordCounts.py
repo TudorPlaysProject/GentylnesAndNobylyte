@@ -13,8 +13,9 @@ def main():
     d = {}
     for word in words:
         word.strip()
+        print(word)
         for anyWord in allWords:
-            print(anyWord)
+           # print(anyWord)
             anyWord.strip()
             if word == anyWord:
                 d[word] += 1
