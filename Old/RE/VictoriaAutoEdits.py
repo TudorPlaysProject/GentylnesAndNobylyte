@@ -10,9 +10,9 @@ def main():
         with open('X_Gentylnes_and_Nobylyte.txt', 'r') as Input:
 
 
-            line = Input.readline()
+            lines = Input.readlines()
 
-            for Line in line:
+            for line in lines:
 
                 line = re.sub('&','[and]', line, flags = re.IGNORECASE)
                 line = re.sub('{per}','per', line, flags = re.IGNORECASE)
@@ -21,7 +21,6 @@ def main():
                 line = re.sub('❡',"", line, flags = re.IGNORECASE)
 
                 Output.write(line)
-                line = Input.readline()
 
 
 if __name__ == '__main__':
