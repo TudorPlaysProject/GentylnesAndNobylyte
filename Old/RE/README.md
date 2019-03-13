@@ -14,3 +14,19 @@ into an array. It then iterates through the array, using the Regular
 Expression sub() method to map 'v' to 'u' and to map the substring
 'us' at the end (but not in the middle) of a word to 'a'.
 
+Objectives discussed on Wednesday, March 13th
+
+Challenge 1:
+Suspensions
+Change any vowels with macron over them to remove macron and append the character with an 'm'.
+Example: Cōpare -> Compare
+Tip: Use od -c compare.txt to learn code for macron.
+
+Challenge 2:
+Remove curly brackets and matain characters inside.
+Example: {choco}late -> chocolate
+May look something like: \{[a-z A-Z]+\}
+
+Next Meeting: Friday, March 15th 10:00am-11:30am
+
+
