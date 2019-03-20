@@ -29,4 +29,16 @@ May look something like: \{[a-z A-Z]+\}
 
 Next Meeting: Friday, March 15th 10:00am-11:30am
 
+Objectives discussed on Wednesday, March 20th
 
+Challenge for Mr. Evans:
+Macron
+Find a way to match any character with a macron.
+
+Challenges for Jordan:
+
+One: Begin properly changing the spelling of words with macrons. Specifically, cō becomes con, and generally ō should become om. Tailor other substitutions to exceptions. Keep eue as eue.
+
+Two: Create a sample program that takes any collection of characters fitting the pattern vowel, u|i, vowel to vowel, v or j (respectively),vowel.
+
+Next Meeting: March 27th, 2019
