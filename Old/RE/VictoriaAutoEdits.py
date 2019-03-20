@@ -16,8 +16,6 @@ def main():
 
                 line = re.sub('&',"and", line, flags = re.IGNORECASE)
                 line = re.sub('〈◊+〉',"", line, flags = re.IGNORECASE)
-                line = re.sub('{per}',"per", line, flags = re.IGNORECASE)
-                line = re.sub('{is}',"is", line, flags = re.IGNORECASE)
                 line = re.sub('\b[^aeiou\s]{1}\b',"", line, flags = re.IGNORECASE)
                 line = re.sub('(page\s+\[unnumbered\])',"", line, flags = re.IGNORECASE)
                 line = re.sub('¶',"", line)
