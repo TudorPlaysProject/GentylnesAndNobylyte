@@ -34,12 +34,7 @@ def main():
                 line = re.sub('[ē]',"em", line, flags = re.IGNORECASE)
                 line = re.sub('[ī]',"im", line, flags = re.IGNORECASE)
                 line = re.sub('[ū]',"um", line, flags = re.IGNORECASE)
-                if re.match(r'{\w+}\w+', line):
-                    line = re.sub(r'{(\w+)}(\w+)', '\\1\\2', line)
-                if re.match(r'\w+{\w+}\w+', line):
-                    line = re.sub(r'(\w+){(\w+)}(\w+)', '\\1\\2\\3', line)
-                if re.match(r'\w+{\w+}', line):
-                    line = re.sub(r'(\w+){(\w+)}', '\\1\\2', line)
+                line = re.sub(r'{(\w+)}', '\\1', line)
                 Output.write(line)
 
 
