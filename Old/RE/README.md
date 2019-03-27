@@ -14,7 +14,8 @@ into an array. It then iterates through the array, using the Regular
 Expression sub() method to map 'v' to 'u' and to map the substring
 'us' at the end (but not in the middle) of a word to 'a'.
 
-Objectives discussed on Wednesday, March 13th
+___________________________________________________
+Objectives discussed on Wednesday, March 13th, 2019
 
 Challenge 1:
 Suspensions
@@ -28,8 +29,8 @@ Example: {choco}late -> chocolate
 May look something like: \{[a-z A-Z]+\}
 
 Next Meeting: Friday, March 15th 10:00am-11:30am
-
-Objectives discussed on Wednesday, March 20th
+___________________________________________________
+Objectives discussed on Wednesday, March 20th, 2019
 
 Challenge for Mr. Evans:
 Macron
@@ -42,3 +43,12 @@ One: Begin properly changing the spelling of words with macrons. Specifically, c
 Two: Create a sample program that takes any collection of characters fitting the pattern vowel, u|i, vowel to vowel, v or j (respectively),vowel.
 
 Next Meeting: March 27th, 2019
+___________________________________________________
+Objectives discussed on Wednesday, March 27th, 2019
+
+Challenge 1:
+Create copy of Victoria's hand edited G&N text, then, make hand edits of this text that mimic the edits my editing program is meant to do. (Victoria's text has serial mumber "30048")
+
+Challenge 2: Cō->com, otherwise ō->on. Handle exceptions case by case. As for p̄, change to either pry or per. (Pryncypally vs. Perogative)
+
+
