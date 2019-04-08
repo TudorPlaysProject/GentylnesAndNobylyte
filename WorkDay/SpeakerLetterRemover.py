@@ -14,7 +14,8 @@ def main():
 
             for line in lines:
                 result = re.match('^[A-Z]{1}$', line) 
-                print(result)
+                if (result):
+                    print(line)
 
 if __name__ == '__main__':
     main() 
