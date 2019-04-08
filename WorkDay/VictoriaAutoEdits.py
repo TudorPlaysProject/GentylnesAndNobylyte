@@ -20,9 +20,7 @@ def main():
                 line = re.sub('^\.[A-Z]{1}\.$',"", line, flags = re.IGNORECASE)
                 line = re.sub('(page\s+\[unnumbered\])',"", line, flags = re.IGNORECASE)
                 line = re.sub('¶',"", line)
-                line = re.sub('eue',"eve", line, flags = re.IGNORECASE) #haue to have
                 line = re.sub('lyst',"lest", line, flags = re.IGNORECASE) #noblyst to noblest
-                line = re.sub('aue',"ave", line, flags = re.IGNORECASE) #euer to ever
                 line = re.sub('hyn(?=[^aeiou])',"hin", line, flags = re.IGNORECASE) #thyng to thing
                 line = re.sub('\b(y)(?=[^ts])[a-z]{1}\b', "wi", line, flags = re.IGNORECASE) #wyse to wise
                 line = re.sub('\bry(?=[^aeiou])+', "ri", line, flags = re.IGNORECASE) #ryches to riches
@@ -38,8 +36,10 @@ def main():
                 line = re.sub('[ī]',"im", line, flags = re.IGNORECASE)
                 line = re.sub('[ū]',"um", line, flags = re.IGNORECASE)
                 line = re.sub(r'{(\w+)}', '\\1', line)
-                line = re.sub('((?<=[aeiou])u(?=[aeiou]))',"v", line, flags = re.IGNORECASE)
                 line = re.sub('((?<=[aeiou])i(?=[aeiou]))',"j", line, flags = re.IGNORECASE)
+                # line = re.sub('aue',"ave", line, flags = re.IGNORECASE) #haue to have
+                # line = re.sub('eue',"eve", line, flags = re.IGNORECASE) #euer to ever
+                # line = re.sub('((?<=[aeiou])u(?=[aeiou]))',"v", line, flags = re.IGNORECASE)
                 Output.write(line)
 
 
