@@ -13,7 +13,7 @@ def main():
             lines = Input.readlines()
 
             for line in lines:
-                result = re.match('^[A-Z]{1}$', line) 
+                result = re.match(r'\bbi\b', line) 
                 if (result):
                     print(line)
 

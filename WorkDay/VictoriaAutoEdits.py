@@ -25,7 +25,8 @@ def main():
                 line = re.sub('\b(y)(?=[^ts])[a-z]{1}\b', "wi", line, flags = re.IGNORECASE) #wyse to wise
                 line = re.sub('\bry(?=[^aeiou])+', "ri", line, flags = re.IGNORECASE) #ryches to riches
                 line = re.sub('eri\b',"ery", line, flags = re.IGNORECASE) #eri to ery (doesn't work, suspect it has something to do with eue being changed)
-                line = re.sub('\bbi\b',"by", line, flags = re.IGNORECASE) #doesnt work with word boundary, but changes false positives without
+                line = re.sub(r'\bbi\b',"by", line) #doesnt work with word boundary, but changes false positives without
+                line = re.sub(r'\bBi\b',"By", line) #doesnt work with word boundary, but changes false positives without
                 line = re.sub('∣',"", line)
                 line = re.sub('\b[^aeiou\s]{1}\b',"", line)
                 line = re.sub(r'{(\w+)}', '\\1', line)
