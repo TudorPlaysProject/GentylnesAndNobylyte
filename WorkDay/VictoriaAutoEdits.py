@@ -28,14 +28,16 @@ def main():
                 line = re.sub('\bbi\b',"by", line, flags = re.IGNORECASE) #doesnt work with word boundary, but changes false positives without
                 line = re.sub('∣',"", line)
                 line = re.sub('\b[^aeiou\s]{1}\b',"", line)
-                # line = re.sub('[p̄]',"pir", line, flags = re.IGNORECASE)
+                line = re.sub(r'{(\w+)}', '\\1', line)
+                # suspensions
                 line = re.sub('[ā]',"am", line, flags = re.IGNORECASE)
-                line = re.sub('((?<! c)ō)',"om", line, flags = re.IGNORECASE)
-                line = re.sub('((?<=c)ō)',"on", line, flags = re.IGNORECASE)
                 line = re.sub('[ē]',"em", line, flags = re.IGNORECASE)
                 line = re.sub('[ī]',"im", line, flags = re.IGNORECASE)
+                line = re.sub('((?<! c)ō)',"om", line, flags = re.IGNORECASE)
+                line = re.sub('((?<=c)ō)',"on", line, flags = re.IGNORECASE)
                 line = re.sub('[ū]',"um", line, flags = re.IGNORECASE)
-                line = re.sub(r'{(\w+)}', '\\1', line)
+                # line = re.sub('[p̄]',"pir", line, flags = re.IGNORECASE)
+                #
                 # line = re.sub('aue',"ave", line, flags = re.IGNORECASE) #haue to have
                 # line = re.sub('eue',"eve", line, flags = re.IGNORECASE) #euer to ever
                 # line = re.sub('((?<=[aeiou])i(?=[aeiou]))',"j", line, flags = re.IGNORECASE) # unused
