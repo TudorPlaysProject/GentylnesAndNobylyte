@@ -24,4 +24,7 @@ output of your conversion program.
 
 04/08/19
 
-Instance of .M. found on line 265, and .P. on line 353. These will be maintained as they are abbreviations of the character being referenced. 
+Instance of .M. found on line 265, and .P. on line 353. These will be maintained as they are abbreviations of the character being referenced.
+
+Decision to change all bi's to by's by majority rule, however regex used to implement change is not working.
+Decision to maintain spelling of "haue" and "euer(y)" in input, spellings are already standardized. 
