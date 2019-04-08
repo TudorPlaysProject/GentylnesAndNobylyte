@@ -36,9 +36,9 @@ def main():
                 line = re.sub('[ī]',"im", line, flags = re.IGNORECASE)
                 line = re.sub('[ū]',"um", line, flags = re.IGNORECASE)
                 line = re.sub(r'{(\w+)}', '\\1', line)
-                line = re.sub('((?<=[aeiou])i(?=[aeiou]))',"j", line, flags = re.IGNORECASE)
                 # line = re.sub('aue',"ave", line, flags = re.IGNORECASE) #haue to have
                 # line = re.sub('eue',"eve", line, flags = re.IGNORECASE) #euer to ever
+                # line = re.sub('((?<=[aeiou])i(?=[aeiou]))',"j", line, flags = re.IGNORECASE) # unused
                 # line = re.sub('((?<=[aeiou])u(?=[aeiou]))',"v", line, flags = re.IGNORECASE)
                 Output.write(line)
 
