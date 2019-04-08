@@ -6,8 +6,8 @@ import re
 
 def main():
 
-    with open('X_Gentylnes_and_Nobylyte_AfterER.txt', 'w') as Output:
-        with open('GentylnesAndNobylyte.txt', 'r') as Input:
+    with open('output.txt', 'w') as Output:
+        with open('input.txt', 'r') as Input:
 
 
             lines = Input.readlines()
