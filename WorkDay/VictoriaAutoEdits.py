@@ -33,7 +33,7 @@ def main():
                 line = re.sub('[ā]',"am", line, flags = re.IGNORECASE)
                 line = re.sub('[ē]',"em", line, flags = re.IGNORECASE)
                 line = re.sub('[ī]',"im", line, flags = re.IGNORECASE)
-                line = re.sub('((?<! c)ō)',"om", line, flags = re.IGNORECASE)
+                line = re.sub('((?<!c)ō)',"om", line, flags = re.IGNORECASE)
                 line = re.sub('((?<=c)ō)',"on", line, flags = re.IGNORECASE)
                 line = re.sub('[ū]',"um", line, flags = re.IGNORECASE)
                 # line = re.sub('[p̄]',"pir", line, flags = re.IGNORECASE)
