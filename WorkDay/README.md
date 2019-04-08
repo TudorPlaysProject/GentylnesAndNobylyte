@@ -21,3 +21,7 @@ represented by the file:
 This is the May 2018 Victoria Maretti version. It has a word count
 of 3731 and a checksum of 30048 19. Compare this version with the
 output of your conversion program.
+
+04/08/19
+
+Instance of .M. found on line 265, and .P. on line 353. These will be maintained as they are abbreviations of the character being referenced. 
