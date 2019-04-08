@@ -16,7 +16,7 @@ def main():
 
                 line = re.sub('&',"and", line, flags = re.IGNORECASE)
                 line = re.sub('〈◊+〉',"", line, flags = re.IGNORECASE)
-                line = re.sub('\b[^aeiou\s]{1}\b',"", line, flags = re.IGNORECASE)
+                line = re.sub('\.[A-Z]{1}\.$',"", line, flags = re.IGNORECASE)
                 line = re.sub('(page\s+\[unnumbered\])',"", line, flags = re.IGNORECASE)
                 line = re.sub('¶',"", line)
                 line = re.sub('eue',"eve", line, flags = re.IGNORECASE) #haue to have
