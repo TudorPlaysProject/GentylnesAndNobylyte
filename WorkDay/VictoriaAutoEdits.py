@@ -20,7 +20,7 @@ def main():
                 line = re.sub('^\.[A-Z]{1}\.$',"", line, flags = re.IGNORECASE)
                 line = re.sub('(page\s+\[unnumbered\])',"", line, flags = re.IGNORECASE)
                 line = re.sub('¶',"", line)
-                line = re.sub('lyst',"lest", line, flags = re.IGNORECASE) #noblyst to noblest
+              # line = re.sub('lyst',"lest", line, flags = re.IGNORECASE) #noblyst to noblest
               # line = re.sub('hyn(?=[^aeiou])',"hin", line, flags = re.IGNORECASE) #thyng to thing
                 line = re.sub('\b(y)(?=[^ts])[a-z]{1}\b', "wi", line, flags = re.IGNORECASE) #wyse to wise
                 line = re.sub('\bry(?=[^aeiou])+', "ri", line, flags = re.IGNORECASE) #ryches to riches
@@ -34,10 +34,31 @@ def main():
                 line = re.sub('[ā]',"am", line, flags = re.IGNORECASE)
                 line = re.sub('[ē]',"em", line, flags = re.IGNORECASE)
                 line = re.sub('[ī]',"im", line, flags = re.IGNORECASE)
-                line = re.sub('((?<!c)ō)',"om", line, flags = re.IGNORECASE)
-                line = re.sub('((?<=c)ō)',"on", line, flags = re.IGNORECASE)
+              # line = re.sub('((?<!c)ō)',"om", line, flags = re.IGNORECASE)
+              # line = re.sub('((?<=c)ō)',"on", line, flags = re.IGNORECASE)
                 line = re.sub('[ū]',"um", line, flags = re.IGNORECASE)
-                # line = re.sub('[p̄]',"pir", line, flags = re.IGNORECASE)
+                line = re.sub('cōmaundement',"commaundement", line, flags = re.IGNORECASE)
+                line = re.sub('cōmunycacyon',"communycacyon", line, flags = re.IGNORECASE)
+                line = re.sub('cōmyn',"commyn", line, flags = re.IGNORECASE)
+                line = re.sub('cōpare',"compare", line, flags = re.IGNORECASE)
+                line = re.sub('cōmyng',"commyng", line, flags = re.IGNORECASE)
+                line = re.sub('cōtrey',"contrey", line, flags = re.IGNORECASE)
+                line = re.sub('cōpellyth',"compellyth", line, flags = re.IGNORECASE)
+                line = re.sub('cōnyngly',"connyngly", line, flags = re.IGNORECASE)
+                line = re.sub('cōtynuannce',"contynuannce", line, flags = re.IGNORECASE)
+                line = re.sub('cōuey',"conuey", line, flags = re.IGNORECASE)
+                line = re.sub('cōclusyon',"conclusyon", line, flags = re.IGNORECASE)
+                line = re.sub('cōfort',"comfort", line, flags = re.IGNORECASE)
+             #  line = re.sub('cōmith',"commith", line, flags = re.IGNORECASE)
+                line = re.sub('cōperison', "comperison", line, flags = re.IGNORECASE)
+                line = re.sub('cōmyst', "commyst", line, flags = re.IGNORECASE)
+             #  line = re.sub('cōmyth', "commith", line, flags = re.IGNORECASE)
+                line = re.sub('cōmen', "commen", line, flags = re.IGNORECASE)
+             #  line = re.sub('cōmoditees', "commodytees", line, flags = re.IGNORECASE)
+             #  line = re.sub('cōmodytees', "commodytees", line, flags = re.IGNORECASE)
+                line = re.sub('cōsideryng mamns', "consideryng mamns", line, flags = re.IGNORECASE)
+                line = re.sub('cōtynuaunce', "contynuaunce", line, flags = re.IGNORECASE)
+                # line = re.sub('',"pir", line, flags = re.IGNORECASE)
                 #
                 # line = re.sub('aue',"ave", line, flags = re.IGNORECASE) #haue to have
                 # line = re.sub('eue',"eve", line, flags = re.IGNORECASE) #euer to ever
@@ -48,4 +69,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
