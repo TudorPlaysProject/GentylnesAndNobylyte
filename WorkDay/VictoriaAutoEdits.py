@@ -31,7 +31,10 @@ def main():
                 line = re.sub('\b[^aeiou\s]{1}\b',"", line)
                 line = re.sub(r'{(\w+)}', '\\1', line)
                 # suspensions
-                line = re.sub('[ā]',"am", line, flags = re.IGNORECASE)
+             #  line = re.sub('[ā]',"am", line, flags = re.IGNORECASE)
+                line = re.sub('mān', "mann", line, flags = re.IGNORECASE)
+                line = re.sub('mann', "man", line, flags = re.IGNORECASE)
+                line = re.sub('drāmys',"drammys", line, flags =re.IGNORECASE)
                 line = re.sub('[ē]',"em", line, flags = re.IGNORECASE)
                 line = re.sub('[ī]',"im", line, flags = re.IGNORECASE)
               # line = re.sub('((?<!c)ō)',"om", line, flags = re.IGNORECASE)
@@ -49,21 +52,20 @@ def main():
                 line = re.sub('cōuey',"conuey", line, flags = re.IGNORECASE)
                 line = re.sub('cōclusyon',"conclusyon", line, flags = re.IGNORECASE)
                 line = re.sub('cōfort',"comfort", line, flags = re.IGNORECASE)
-             #  line = re.sub('cōmith',"commith", line, flags = re.IGNORECASE)
+                line = re.sub('cōmith',"commyth", line, flags = re.IGNORECASE)
                 line = re.sub('cōperison', "comperison", line, flags = re.IGNORECASE)
                 line = re.sub('cōmyst', "commyst", line, flags = re.IGNORECASE)
-             #  line = re.sub('cōmyth', "commith", line, flags = re.IGNORECASE)
+                line = re.sub('cōmyth', "commyth", line, flags = re.IGNORECASE)
                 line = re.sub('cōmen', "commen", line, flags = re.IGNORECASE)
              #  line = re.sub('cōmoditees', "commodytees", line, flags = re.IGNORECASE)
              #  line = re.sub('cōmodytees', "commodytees", line, flags = re.IGNORECASE)
-                line = re.sub('cōsideryng mamns', "consideryng mamns", line, flags = re.IGNORECASE)
+                line = re.sub('cōsideryng', "consideryng", line, flags = re.IGNORECASE)
                 line = re.sub('cōtynuaunce', "contynuaunce", line, flags = re.IGNORECASE)
-                # line = re.sub('',"pir", line, flags = re.IGNORECASE)
-                #
-                # line = re.sub('aue',"ave", line, flags = re.IGNORECASE) #haue to have
-                # line = re.sub('eue',"eve", line, flags = re.IGNORECASE) #euer to ever
-                # line = re.sub('((?<=[aeiou])i(?=[aeiou]))',"j", line, flags = re.IGNORECASE) # unused
-                # line = re.sub('((?<=[aeiou])u(?=[aeiou]))',"v", line, flags = re.IGNORECASE)
+             #  line = re.sub('',"pir", line, flags = re.IGNORECASE)
+             #  line = re.sub('aue',"ave", line, flags = re.IGNORECASE) #haue to have
+             #  line = re.sub('eue',"eve", line, flags = re.IGNORECASE) #euer to ever
+             #  line = re.sub('((?<=[aeiou])i(?=[aeiou]))',"j", line, flags = re.IGNORECASE) # unused
+             #  line = re.sub('((?<=[aeiou])u(?=[aeiou]))',"v", line, flags = re.IGNORECASE)
                 Output.write(line)
 
 
