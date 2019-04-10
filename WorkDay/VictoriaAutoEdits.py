@@ -30,6 +30,9 @@ def main():
                 line = re.sub('∣',"", line)
                 line = re.sub('\b[^aeiou\s]{1}\b',"", line)
                 line = re.sub(r'{(\w+)}', '\\1', line)
+                line = re.sub(r'\bys\b', "is", line)
+                #No genitive "ys" in G&N 
+                line = re.sub(r'\byf\b',"if", line, flags = re.IGNORECASE)
                 # suspensions
              #  line = re.sub('[ā]',"am", line, flags = re.IGNORECASE)
                 line = re.sub('mān', "mann", line, flags = re.IGNORECASE)
